@@ -336,7 +336,7 @@ export default function App() {
 
   const dashboardView = (
     <div className="max-w-6xl mx-auto px-6 py-12">
-      <header className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12">
+      <header className="flex flex-col md:flex-col space-y-8 md:items-center justify-between gap-6 mb-12">
         <div>
           <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight flex items-center gap-3">
             <div className="p-2 bg-indigo-600 rounded-xl text-white"><BookOpen className="w-8 h-8" /></div>
