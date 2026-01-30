@@ -3,15 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Memory Mind Map</title>
+    
+    <title>English Mind Map</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <style>
-      html, body { background-color: white; height: 100%; margin: 0; }
+      html, body {
+        background-color: #ffffff !important; /* 배경은 무조건 흰색 */
+        color: #000000 !important;          /* 글자는 무조건 검은색 */
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #root {
+        height: 100%;
+      }
     </style>
   </head>
-  <body class="bg-white text-gray-900 antialiased h-full">
-    <div id="root" class="h-full"></div>
+  
+  <body class="bg-white text-gray-900 antialiased">
+    <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
