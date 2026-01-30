@@ -449,7 +449,7 @@ export default function App() {
       </header>
 
       <main className="flex-1 overflow-auto bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:24px_24px] p-8 md:p-16">
-        <div className="max-w-4xl mx-auto pb-40">
+        <div className="max-w-7xl mx-auto pb-40">
           <h1 className="text-4xl font-black text-slate-900 mb-12 border-l-8 border-indigo-600 pl-6">{activeSession.data.text}</h1>
           <MindMapNode node={activeSession.data} session={activeSession} difficulty={activeSession.difficulty} onUpdateNode={handleNodeUpdate} starredOnly={isStarredOnly} isRoot={true} />
         </div>
